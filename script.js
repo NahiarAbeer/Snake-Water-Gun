@@ -67,10 +67,11 @@ do {
 
 let i = 0
 function changecolor() {
-    let colr = ['red', 'lime', 'lightblue', "green", 'megenta', "purple", 'gold', 'orange', 'yellow', 'teal']
+    let colr = ['red', 'lime', 'lightblue', "green", 'megenta', "purple", 'gold', 'orange', 'yellow', 'teal','gold', "black","white"]
 
 
     i += 1
     console.log(i)
     document.body.style.background = colr[i];
+    document.body.style.color = colr[i+1];
 }
