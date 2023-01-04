@@ -72,4 +72,7 @@ function changecolor() {
     console.log(i)
     document.body.style.background = colr[i];
     document.body.style.color = colr[i+1];
+    if(i==colr.length){
+    i=0
+    }
 }
