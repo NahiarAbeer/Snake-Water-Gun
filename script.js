@@ -14,7 +14,10 @@ function winner(p, c) {
     cond = confirm("Want to play again?")
 }
 do {
-
+    let a = confirm("Want to play?")
+    if (a==false) {
+        break;
+    }
     let pscore = 0, cscore = 0;
 
     for (let loop = 1; loop <= 10; loop++) {
